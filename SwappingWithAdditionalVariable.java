@@ -2,7 +2,7 @@ class SwappingWithAdditionalVariable
 {
 	public static void main(String args[])
 	{
-	int a = 86, y = 1011;
+	int a = 86, b = 1011;
  
         System.out.println("Before Swap");
         System.out.println("a = " + a);
