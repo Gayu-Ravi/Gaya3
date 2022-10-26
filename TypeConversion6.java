@@ -14,9 +14,9 @@ public class TypeConversion6
 		
 		System.out.println("Boolean to Int Conversion");
 		boolean g=true;
-		int d=(g) ? 1 : 0 ;
+		int d= (int) g ;
 		boolean e=false;
-		int f=(e)?1:0;
+		int f=(int) e;
 		System.out.println("Given value :" + g);
 		System.out.println("Result      :" + d);
 		System.out.println("Given value :" + e);
