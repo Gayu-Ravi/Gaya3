@@ -14,7 +14,7 @@ public class SecondLargest1 {
 			sortArr[i] = value;
 		}
 		for (int i = 0; i < length; i++) {
-			for (int j = i + 1; j < length; j++) {
+			for (int j = i + 1; j<length; j++) {
 				if (sortArr[i] >sortArr[j]) {
 					int temp = sortArr[i];
 					sortArr[i] = sortArr[j];
