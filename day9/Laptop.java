@@ -11,7 +11,7 @@ public class Laptop {
 	
 	static class Keyboard{
 		char alphabets;
-		public static int key0=0;
+		public static int key0;
 		static int key1=1;
 		static int key2=2;
 		
